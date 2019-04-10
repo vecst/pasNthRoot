@@ -1,6 +1,8 @@
 import decimal
 from functools import reduce
 
+#edit
+
 def fact(o):
 #creates factorial of number 'o'
     return reduce(lambda x,y: x * y,range(1,o+1)) if o >0 else 1
